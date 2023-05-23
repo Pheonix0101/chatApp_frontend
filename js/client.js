@@ -1,13 +1,4 @@
-const socket = io("http://localhost:9000");
-
-// import { io } from "socket.io-client";
-
-socket = io({
-  extraHeaders: {
-    "my-custom-username": "purushottam",
-    "my-custom-password": "1234",
-  },
-});
+const socket = io("http://localhost:49160");
 
 const form = document.getElementById("send-container");
 const messageInput = document.getElementById("messageInp");
